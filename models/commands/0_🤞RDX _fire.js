@@ -4,7 +4,7 @@ module.exports.config = {
     name: "Fire",
     version: "1.0.0",
     hasPermssion: 2,
-    credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+    credits: "RDX_ZAIN",
     description: "Fire broke the boxchat",
     commandCategory: "group",
     usages: "bold Fire",
