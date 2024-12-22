@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "config",
 	version: "1.0.0",
 	hasPermssion: 2,
-	credits: "NTKhang",
+	credits: "RDX_ZAIN",
 	description: "config bot!",
 	commandCategory: "admin",
 	cooldowns: 5
