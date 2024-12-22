@@ -4,7 +4,7 @@ const config = {
   name: "zaini",
   version: "1.0.0",
   hasPermission: 0,
-  credits: "𝙉𝘼𝙐𝙂𝙃𝙏𝙔 ツ",
+  credits: "RDX_ZAIN",
   description: "[ 𝗭𝗮𝗶𝗻 𝗔𝙞 ]",
   commandCategory: "no prefix",
   usages: "𝘼𝙨𝙠 𝘼 𝙌𝙪𝙚𝙨𝙩𝙞𝙤𝙣 𝙁𝙧𝙤𝙢 𝙕𝙖𝙞𝙣 𝘼𝙞",
