@@ -10,7 +10,7 @@ module.exports.config = {
   name: "cardinfo",
   version: "2.0.0",
   hasPermssion: 0,
-  credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+  credits: "RDX_ZAIN",
   description: "Create a facebook user information card",
   commandCategory: "The group",
   usages: "",
