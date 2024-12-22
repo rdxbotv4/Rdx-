@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "baybayin",
 	version: "1.0.0",
 	hasPermssion: 0,
-	credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+	credits: "RDX_ZAIN",
 	description: "convert text to baybayin",
 	commandCategory: "Phương tiện",
 	usages: "baybayin [text]",
