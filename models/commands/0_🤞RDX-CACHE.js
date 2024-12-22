@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "cache",
 	version: "1.0.1",
 	hasPermssion: 2,
-	credits: "ARIF-BABU",
+	credits: "ZAIN_RDX",
 	description: "Delete file or folder in cache folder",
 	commandCategory: "Admin-bot system",
 	usages: "\ncache start <text>\ncache ext <text>\ncache <text>\ncache [blank]\ncache help\nNOTE: <text> is the character you enter as you like",
