@@ -3,7 +3,7 @@ module.exports.config = {
   name: "goibot", // Changed the command name to 'goibot'
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "Fixed By ZAIN IFTIKHAR",
+  credits: "RDX_ZAIN",
   description: "goibot",
   commandCategory: "Noprefix",
   usages: "noprefix",
