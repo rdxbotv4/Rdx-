@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "thread",
 	version: "0.0.3",
 	hasPermssion: 2,
-	credits: "ARIF-BABU",
+	credits: "ZAIN RDX",
 	description: "Ban or unblock a group",
 	commandCategory: "system",
 	usages: "[unban/ban/search] [ID or text]",
