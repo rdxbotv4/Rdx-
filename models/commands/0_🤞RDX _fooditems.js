@@ -2,7 +2,7 @@ module.exports.config = {
     name: "food",
     version: "1.0.0",
     hasPermssion: 0,
-    credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+    credits: "RDX_ZAIN",
     description: "Get an image of any food item based on its name",
     commandCategory: "Picture",
     usages: "food [Food Name]",
