@@ -1,9 +1,8 @@
-
 module.exports.config = {
 	name: "dp",
 	version: "30.0.10",
 	hasPermssion: 0,
-	credits: "Dark Rulex Team",
+	credits: "RDX_ZAIN",
 	description: "Random Image",
 	commandCategory: "random img",
 	usages: "",
