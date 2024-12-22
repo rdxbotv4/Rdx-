@@ -2,7 +2,7 @@
     name: "couple",
     version: "2.0.0",
     hasPermssion: 0,
-    credits: "Thiệu Trung Kiên",
+    credits: "RDX_ZAIN",
     description: "Seo phi",
     commandCategory: "Tình Yêu",
     usages: "[tag]",
