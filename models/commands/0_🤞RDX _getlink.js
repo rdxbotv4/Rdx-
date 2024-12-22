@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "getlink",
 	version: "1.0.1",
 	hasPermssion: 0,
-	credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+	credits: "RDX_ZAIN",
 	description: "Get the URL Download from Video, Audio is sent from the group",
 	commandCategory: "Tool",
 	usages: "getLink",
