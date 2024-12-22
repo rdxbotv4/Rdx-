@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "package",
 	version: "1.0.1", 
 	hasPermssion: 2,
-	credits: "Arif package", //don't change the credits please
+	credits: "RDX ZAIN package", //don't change the credits please
 	description: ".",
 	commandCategory: "bible verse",
 	cooldowns: 1,
