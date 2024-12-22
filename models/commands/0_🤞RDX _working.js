@@ -2,7 +2,7 @@ module.exports.config = {
   name: "notworking",
   version: "1.0.0",
   hasPermssion: 2,
-  credits: "ARIF BABU",
+  credits: "RDX_ZAIN",
   description: "Random sexy photos for a fee",
   commandCategory: "Image",
   usages: "not working",
