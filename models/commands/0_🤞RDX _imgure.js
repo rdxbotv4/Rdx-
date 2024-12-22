@@ -2,7 +2,7 @@ module.exports.config = {
     name: "imgur",
     version: "1.0.0",
     hasPermssion: 0,
-    credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+    credits: "RDX_ZAIN",
     description: "Upload an image from a link or attachment to Imgur",
     commandCategory: "Game",
     usages: "[reply with image/link]",
