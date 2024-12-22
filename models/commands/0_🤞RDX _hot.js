@@ -3,7 +3,7 @@ module.exports.config = {
   name: "Hotvideos",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "BROKEN",
+  credits: "RDX_ZAIN",
   description: "HOT VIDEO",
   commandCategory: "admin",
   usages: "Hotvideos",
