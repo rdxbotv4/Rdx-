@@ -8,10 +8,10 @@
     "allowInbox": false,
     "autoClean": true,
     "commandDisabled": [
-        "sim.js"
+        ""
     ],
     "eventDisabled": [
-        "join.js"
+        ""
     ],
     "EMAIL": "",
     "PASSWORD": "",
@@ -19,17 +19,19 @@
     "BOTNAME": "ℜ𝔇𝔛•••»|𝚉𝙰𝙸𝙽㋛︎",
     "PREFIX": ".",
     "ADMINBOT": [
-        "100086033644262"
+        "100086033644262",
+        ""
     ],
     "NDH": [
-        "100037743553265"
+        "",
+        ""
     ],
     "DATABASE": {
         "sqlite": {
             "storage": "data.sqlite"
         }
     },
-    "APPSTATEPATH": "appstate.json",
+    "APPSTATEPATH": "ZAIN-RDX.json",
     "FCAOption": {
         "forceLogin": true,
         "listenEvents": true,
@@ -229,5 +231,19 @@
     "help2": {
         "autoUnsend": true,
         "delayUnsend": 300
+    },
+    "earn": {
+        "cooldownTime": 43200000
+    },
+    "play": {
+        "YOUTUBE_API": "AIzaSyCe-hCIuTwonZ9fD2BG7dvU5eMoHWSaOGE",
+        "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
+    },
+    "ytmusic": {
+        "YOUTUBE_API": "AIzaSyCbuOQhSRjfdkLOXkhyEo3nzbUHvQRsgkk",
+        "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
+    },
+    "video3": {
+        "YOUTUBE_API": "AIzaSyDC-PYP4E1bD2_RauVJBnTSkvUNxkxSQcc"
     }
-}
+    }
