@@ -31,14 +31,16 @@ module.exports.run = async function({ api, event }) {
     if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
         api.changeNickname(`[ ${global.config.PREFIX} ] • ${(!global.config.BOTNAME) ? " " : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
         const fs = require("fs");
-        return api.sendMessage("", event.threadID, () => api.sendMessage({body: `🍒💙•••Ɓ❍ʈ Ƈøɳɳɛƈʈɛɗ•••💞🌿
+        return api.sendMessage("", event.threadID, () => api.sendMessage({body: `╰⊱✿ ʙᴏᴛ ᴄᴏɴɴᴇᴄᴛᴇᴅ ✿⊱╮
         
-🕊️🌸...Ɦɛɭɭ❍ Ɠɣus Ɱɣ Ɲɑɱɛ Is 🍒💙•••✦𝘽𝙤𝙩✦•••💞🌿
+🌟🍇 ʜᴇʟʟᴏ ɢᴜʏs, ᴍʏ ɴᴀᴍᴇ ɪs 🌼🍉🌸•••✧ʙᴏᴛ✧•••✨🌹
 
 
 
 
- ✨💞Ɱɣ Ꭾɽɛfɪᵡ ɪs / 
+ ╔═══════🌟✨═══════╗  
+💖✦❦︎ 🪷💘Ɱɣ Ꭾɽ𝔢𝔣𝔦𝔵 𝔦𝔰 ❦︎✦💖  
+╚═══════🌟✨═══════╝
 
 
 \n\nƬɣƥɛ${global.config.PREFIX}ꞪɛɭᎮ Ƭ❍ søø Ɱɣ Ƈøɱɱɑɳɗ ɭɪsʈ...🤍💫\n
@@ -59,19 +61,21 @@ A̸N̸D̸ F̸O̸R̸ A̸N̸Y̸ R̸E̸P̸O̸R̸T̸ O̸R̸ C̸O̸N̸T̸A̸C̸T̸ B�
 👋For Any Kind Of Help Contact On Telegram  Username 👉 @zainijutt7😇 
 
 
-✮☸✮
-✮┼💞┼✮
-☸🕊️━━•🌸•━━🕊️☸
-✮☸✮
-✮┼🍫┼✮
-☸🎀━━•🧸•━━🎀☸
-✮┼🦢┼✮
-✮☸✮
-☸🌈━━•🤍•━━🌈☸
-✮☸✮
-✮┼❄️┼✮
+✮🌿✮  
+✮┆🍒┆✮  
+✧🌸━✦━🕊️━✦━🌸✧  
+✮🌿✮  
+✮┆🍫┆✮  
+🪶🎀━❀━🧸━❀━🎀🪶  
+✮┆🦢┆✮  
+✮🌿✮  
+🌈💖━❀━🤍━❀━💖🌈  
+✮🌿✮  
+✮┆❄️┆✮
 
-┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓🌸✦✧✧✧✧✰🍒ℤ𝔸𝕀ℕ🌿✰✧✧✧✧✦🌸  ┗━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┛
+⟦🕊️⟦──🎀🧸💖🧸🎀──❀💞⟧  
+🍒🌟✧ℤ𝒶𝒾𝓃🌸✧  
+⟧🕊️⟧──🎀🧸💖🧸🎀──❀💞⟧
 `, attachment: fs.createReadStream(__dirname + "/cache/botjoin.mp4")} ,threadID));
     }
     else {
