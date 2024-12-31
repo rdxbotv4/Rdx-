@@ -61,18 +61,23 @@ A̸N̸D̸ F̸O̸R̸ A̸N̸Y̸ R̸E̸P̸O̸R̸T̸ O̸R̸ C̸O̸N̸T̸A̸C̸T̸ B�
 👋For Any Kind Of Help Contact On Telegram  Username 👉 @zainijutt7😇 
 
 
-✮🌿✮  
-✮┆🍒┆✮  
-✧🌸━✦━🕊️━✦━🌸✧  
-✮🌿✮  
-✮┆🍫┆✮  
-🪶🎀━❀━🧸━❀━🎀🪶  
-✮┆🦢┆✮  
-✮🌿✮  
-🌈💖━❀━🤍━❀━💖🌈  
-✮🌿✮  
-✮┆❄️┆✮
+💎━━━━━🌟━━━━━💎
+✨ IMPORTANT NOTE ✨
+💎━━━━━🌟━━━━━💎
 
+📌 YA BOT ID MAXIMUM 5 DIN CHLY GI.  
+📌 PHR BAND HO JY GI.  
+📌 NEW BOT ADD KRWANE K LY BOT KA ADMIN KO ADD KIA JY.  
+📌 JB ES ID MA PROBLEM HO TO NEW ID SA BOT RUN KR SKY. 😊  
+
+BOT KA OWNER KI ID KA LINK YA RHA:  
+👉 [Click Here](https://www.facebook.com/profile.php?id=100086033644262)  
+
+AGR AP KO APNE GROUP MA ADMIN KA NAME KA BOT CHAHIE TO WHATSAPP PA CONTACT KR SAKTY:  
+📞 +923301068874  
+
+💖 THANKS FOR USING RDX BOT 💖  
+💎━━━━━🌟━━━━━💎
 ⟦🕊️⟦──🎀🧸💖🧸🎀──❀💞⟧  
 🍒🌟✧ℤ𝒶𝒾𝓃🌸✧  
 ⟧🕊️⟧──🎀🧸💖🧸🎀──❀💞⟧
