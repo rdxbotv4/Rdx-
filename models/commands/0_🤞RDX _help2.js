@@ -15,7 +15,7 @@ module.exports.config = {
 
 module.exports.languages = {
     "en": {
-        "moduleInfo": "「 %1 」\n%2\n\n❯ Usage: %3\n❯ Category: %4\n❯ Waiting time: %5 seconds(s)\n❯ Permission: %6\n\n» Module code by %7 «",
+        "moduleInfo": "╰┈➤[ %1 ] \n%2\n\n❯ Usage: %3\n❯ Category: %4\n❯ Waiting time: %5 seconds(s)\n❯ Permission: %6\n\n» Module code by %7 «",
         "helpList": '[ There are %1 commands on this bot, Use: "%2help nameCommand" to know how to use! ]',
         "user": "User",
         "adminGroup": "Admin group",
