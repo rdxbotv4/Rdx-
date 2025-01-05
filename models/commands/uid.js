@@ -15,15 +15,13 @@ module.exports.run = function({ api, event }) {
         for (let i = 0; i < Object.keys(event.mentions).length; i++) {
             let userId = Object.keys(event.mentions)[i];
             let userName = Object.values(event.mentions)[i].replace('@', '');
-            api.getUserInfo(userId, (error, userInfo) => {
-                if (error) {
-                    console.error(error);
-                    return api.sendMessage('Error fetching user info.', event.threadID);
-                }
+            // Using the Graph API to fetch the profile picture
+            let profilePicUrl = `https://graph.facebook.com/${userId}/picture?type=large`;
 
-                let userProfilePic = userInfo[userId].profilePicture;
-                api.sendMessage(`${userName}: ${userId}\nProfile Picture: ${userProfilePic}`, event.threadID);
-            });
+            api.sendMessage({
+                body: `${userName}: ${userId}`,
+                attachment: profilePicUrl
+            }, event.threadID);
         }
         return;
     }
