@@ -71,9 +71,9 @@ module.exports.run = function ({ api, event, args, getText }) {
         i = startSlice;
         const returnArray = arrayInfo.slice(startSlice, startSlice + numberOfOnePage);
         
-        for (let item of returnArray) msg += `╰┈➤⋆⋅✦⋅⋆${++i}⋆⋅✦⋅⋆${prefix}⊰𒁍${item}🍀\n`;
+        for (let item of returnArray) msg += `╰┈➤「 ${++i} 」${prefix}⊰𒁍${item}🍀\n`;
         
-        const siu = `Command list 📄\n Made by 𝗭𝗔̃𝗜̨𝗡̃𝗜̨ 𝗝𝗨𝗧𝗧💫✨ 🥀\nFor More Information type /help (command name) ✨`;
+        const siu = `Command list 📜\n  Cᴏᴍᴍᴀɴᴅ Lɪsᴛ 📘 💫 Created by 𝗭𝗔̃𝗜̨𝗡̃𝗜̨ 𝗝𝗨𝗧𝗧 💫 For info: /help (command name) 🌟`;
         
         const text = `\nPage (${page}/${Math.ceil(arrayInfo.length / numberOfOnePage)})`;
         
