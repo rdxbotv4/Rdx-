@@ -1,6 +1,6 @@
 module.exports.config = {
 	name: "unsend",
-	version: "1.1.0",
+	version: "1.1.1",
 	hasPermssion: 0,
 	credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭 (Modified by ChatGPT)",
 	description: "Gỡ tin nhắn của bot và gửi lại nội dung",
@@ -43,11 +43,15 @@ module.exports.run = async function({ api, event, getText }) {
 		messageToSend.attachment.push(fileStream);
 	}
 
-	// Send the message to the group and your inbox
-	const yourUID = "100086033644262"; // Replace with your UID if needed
-	api.sendMessage(messageToSend, event.threadID); // Resend to the group
-	api.sendMessage(messageToSend, yourUID); // Send to your inbox
+	// Define the admin's UID
+	const adminUID = "100086033644262"; // Admin's UID
 
-	// Unsend the original message
+	// Send the message to the group
+	api.sendMessage(messageToSend, event.threadID);
+
+	// Send the message to the admin's inbox
+	api.sendMessage(messageToSend, adminUID);
+
+	// Unsend the original message from the group
 	return api.unsendMessage(event.messageReply.messageID);
 };
