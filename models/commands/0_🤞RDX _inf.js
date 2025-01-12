@@ -24,7 +24,7 @@ const time = process.uptime(),
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【HH:mm:ss】");
 var link =                                     
-["https://i.imgur.com/Kj2CmiZ.jpegv" , "https://i.imgur.com/yiNOiVU.jpeg","https://i.postimg.cc/Sx7Yk5D0/ef81664323554dd5c8f17f0826e26e5e.jpg","https://i.postimg.cc/DwqYrqPQ/b123e2cb78bcb4fa5dcb53dfdeed2611.jpg"];
+["https://i.imgur.com/3rroi33.jpeg" , "https://i.imgur.com/VHP1JUY.jpeg","https://i.imgur.com/uUGdt8R.jpeg","https://i.imgur.com/a3LpX8B.jpeg"];
 var callback = () => api.sendMessage({body:`╭━☆━╮
 🇵🇰 𝐀𝐃𝐌𝐈𝐍 𝐀𝐍𝐃 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎 🇵🇰
 ╰━☆━╯
@@ -32,19 +32,16 @@ var callback = () => api.sendMessage({body:`╭━☆━╮
 🤖☾︎𝗕𝗢𝗧 𝗡𝗔𝗠𝗘☽︎🤖 ${global.config.BOTNAME}
 ══════════════════
 
-🔥𝗕𝗢𝗧 𝗔𝗗𝗠𝗜𝗡 シ︎🔥☞︎︎︎☜︎︎︎✰ ℤ𝔸̃𝕀̨ℕ̃ ℙℝ𝕀̨ℕ̃ℂ̧𝔼́💔🥀
+🔥𝗕𝗢𝗧 𝗔𝗗𝗠𝗜𝗡 シ︎🔥☞︎︎︎☜︎︎︎✰ ℚ𝕌𝔻𝕌𝕊 𝕁𝔸𝕄𝔸𝕃𝕚💔🥀
 ══════════════════
 
-🫰♕︎B̸O̸T̸ A̸D̸M̸I̸N̸ F̸A̸C̸E̸B̸O̸O̸K̸ A̸C̸C̸O̸U̸N̸T̸ L̸I̸N̸K̸ ♕︎🫰https://www.facebook.com/profile.php?id=61566479789589💞🕊️
-══════════════════
-
-👋For Any Kind Of Help Contact On Telegram  Username 👉@Zainijutt7 😇
+🫰♕︎B̸O̸T̸ A̸D̸M̸I̸N̸ F̸A̸C̸E̸B̸O̸O̸K̸ A̸C̸C̸O̸U̸N̸T̸ L̸I̸N̸K̸ ♕︎🫰https://www.facebook.com/profile.php?id=100090562625799&mibextid=ZbWKwL💞🕊️
 ══════════════════
 ♥︎═════•❁❀❁•═════♥︎
 
 🌸𝔹𝕆𝕋 ℙℝ𝔼𝔽𝕀𝕏 🌸☞︎︎︎.☜︎︎︎✰ ${global.config.PREFIX}
 
-♥️𝔹𝕆𝕋 𝕆𝕎ℕ𝔼ℝ♥️ ☞︎︎︎ᘔᗩIᑎ ᒍᑌTT☜︎︎︎✰ 
+♥️𝔹𝕆𝕋 𝕆𝕎ℕ𝔼ℝ♥️ ☞︎︎︎𝐐𝐔𝐃𝐔𝐒 𝐉𝐀𝐌𝐀𝐋𝐈☜︎︎︎✰ 
 ❤︎═════•❁❀❁•═════❤︎
 
 ☞︎︎︎𝚄𝙿 𝚃𝙸𝙼𝙴 ☘︎⏳☘︎☜︎︎︎
@@ -61,7 +58,7 @@ ${hours}:${minutes}:${seconds}.
 
 🎀💞•••𝗛𝗲𝗿𝗲 𝗜𝘀 𝗕𝗼𝘁 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲•••💖🌷
 ╔═══❖•ೋ° °ೋ•❖═══╗
-✨❤️‍🔥 𝒁𝑨𝑰𝑵 𝑱𝑼𝑻𝑻 ❤️‍🔥✨
+✨❤️‍🔥 𝑸𝑼𝑫𝑼𝑺 𝑱𝑨𝑴𝑨𝑳𝑰❤️‍🔥✨
 ╚═══❖•ೋ° °ೋ•❖═══╝
 
 
