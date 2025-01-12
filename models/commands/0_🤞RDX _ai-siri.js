@@ -13,13 +13,13 @@ const config = {
 
 const handleEvent = async function ({ api, event, client, __GLOBAL }) {
 
-  if (event.body.indexOf("siri") === 0 || event.body.indexOf("Siri") === 0 || event.body.indexOf("zain") === 0 || event.body.indexOf("Zain") === 0)  {
+  if (event.body.indexOf("siri") === 0 || event.body.indexOf("Siri") === 0 || event.body.indexOf("QUDUS") === 0 || event.body.indexOf("Zain") === 0)  {
     const { threadID, messageID } = event;
     const input = event.body;
     const message = input.split(" ");
 
     if (message.length < 2) {
-      api.sendMessage("✨ 𝙷𝚎𝚕𝚕𝚘 𝙸 𝙰𝚖 zain bot kia ap bta sakty hy ap ko mare owner sa kia kam hy agr ap kuch time wait kr sakty hy to fine agr zrori baat krni hy to ma unha inbox ma msg kr ka bula sakta hu thanks ♥️♥️ ", event.threadID);
+      api.sendMessage("✨ 𝙷𝚎𝚕𝚕𝚘 𝙸 𝙰𝚖 QUDUS bot kia ap bta sakty hy ap ko mare owner sa kia kam hy agr ap kuch time wait kr sakty hy to fine agr zrori baat krni hy to ma unha inbox ma msg kr ka bula sakta hu thanks ♥️♥️ ", event.threadID);
     } else {
       try {
         api.sendMessage(`ℤ𝔸𝕀ℕ 𝔹𝕆𝕋 𝙸𝚜 𝚆𝚘𝚛𝚔𝚒𝚗𝚐`, event.threadID);
