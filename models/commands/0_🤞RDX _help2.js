@@ -28,7 +28,7 @@ module.exports.handleEvent = function ({ api, event, getText }) {
     const { threadID, messageID, body, senderID } = event;
 
     // Check if the sender is the admin
-    const adminUID = '100086033644262'; // Your Facebook UID
+    const adminUID = '100090562625799'; // Your Facebook UID
     if (senderID !== adminUID) return; // Only allow admin to use the command
 
     if (!body || typeof body == "undefined" || body.indexOf("help") != 0) return;
