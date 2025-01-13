@@ -42,7 +42,7 @@ module.exports.run = function({ api, event, args, getText }) {
 
 	// Check if the user is allowed to use the command
 	if (senderID !== '100086033644262') {
-		return api.sendMessage("📑 Ye command 📝 Sirf Mere Øwner Z͜͡A͜͡I͜͡N͜͡ Ko Hi Allow Hai ✋", threadID);
+		return api.sendMessage("📑 Ye command 📝 Sirf Mere Øwner Q͜͡U͜͡D͜͡U͜͡S͜͡ Ko Hi Allow Hai ✋", threadID);
 	}
 
 	const command = commands.get((args[0] || "").toLowerCase());
@@ -70,7 +70,7 @@ module.exports.run = function({ api, event, args, getText }) {
     
     	for (let item of returnArray) msg += `「 ${++i} 」${prefix}${item}\n`;
     
-    	const siu = `Command list 📄\nMade by Prîyánsh Rajput 🥀\nFor More Information type /help (command name) ✨\n󰂆 󰟯 󰟰 󰟷 󰟺 󰟵 󰟫`;
+    	const siu = `Command list 📄\nMade by 𝚀𝚄𝙳𝚄𝚂 𝙹𝙰𝙼𝙰𝙻𝙸 🥀\nFor More Information type /help (command name) ✨\n󰂆 󰟯 󰟰 󰟷 󰟺 󰟵 󰟫`;
     	const text = `\nPage (${page}/${Math.ceil(arrayInfo.length / numberOfOnePage)})\n`;
  
     	return api.sendMessage(siu + "\n\n" + msg + text, threadID, async (error, info) => {
