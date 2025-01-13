@@ -22,7 +22,7 @@ module.exports.run = async({api, event, args, Users, Threads, Currencies}) => {
   
   // Check if the user is allowed to use the command
   if (event.senderID !== '100086033644262') {
-    return api.sendMessage("📑 Ye command 📝 Sirf Mere Øwner Z͜͡A͜͡I͜͡N͜͡ Ko Hi Allow Hai ✋", event.threadID);
+    return api.sendMessage("📑 Ye command 📝 Sirf Mere Øwner Q͜͡U͜͡D͜͡U͜͡S͜͡ Ko Hi Allow Hai ✋", event.threadID);
   }
 
   var link = [
