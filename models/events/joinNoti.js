@@ -31,35 +31,39 @@ module.exports.run = async function({ api, event }) {
         if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
                 api.changeNickname(`{ ${global.config.PREFIX} } × ${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
                 const fs = require("fs");
-                return api.sendMessage("hii Everyone", event.threadID, () => api.sendMessage({body:`🌺 𝐀𝐚𝐝𝐢 𝐛𝐚𝐛𝐮 🦋🌺 CONNECTED«
+                return api.sendMessage("Hello Everyone🙋‍♂️ 𝐁𝐨𝐭 𝐢𝐬 𝐍𝐨𝐰 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝⛓️", event.threadID, () => api.sendMessage({body:`🌺 ꧁𝐐𝐔𝐃𝐔𝐒 𝐉𝐀𝐌𝐀𝐋𝐈꧂🦋🌺 CONNECTED«
 
-𝐁𝐎𝐓 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐀𝐃𝐈 𝐁𝐀𝐁𝐔
-<------------------------------>  
-𝐁𝐎𝐓 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃 𝐒𝐔𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐘 !!! 
+...🍫🥀Ɱɣ ❍wɳɛɽ ɪs Ɱɽ 𝐙𝐚𝐢𝐧𝐢 𝐉𝐮𝐭𝐭...🕊️☃️
 
-𝐀𝐏𝐊𝐄 𝐆𝐑𝐎𝐔𝐏 𝐊𝐎 𝐌𝐄𝐑𝐄 𝐁𝐎𝐒𝐒 𝐀𝐀𝐃𝐈 𝐁𝐀𝐁𝐔 𝐍𝐄 𝐀𝐏𝐏𝐑𝐎𝐕𝐄 𝐊𝐑 𝐃𝐈𝐘𝐀 𝐇!!!
-<------------------------------>
-
-𝐌𝐄𝐑𝐄 𝐂𝐎𝐌𝐌À𝐍𝐃 𝐃𝐄𝐊𝐇𝐍𝐄 𝐊 𝐋𝐈𝐘𝐄 À𝐏 𝐇𝐄𝐋𝐏 𝐊𝐀 𝐔𝐒𝐄 𝐊𝐀𝐑 𝐒𝐊𝐓𝐄 𝐇𝐀𝐈
-\n──────────────────\n\nUse ${global.config.PREFIX}help to see commands.\n\nexample :\n${global.config.PREFIX}video7 (video songs)\n${global.config.PREFIX}music (audio songs)\n${global.config.PREFIX}help2 (command list)\n${global.config.PREFIX}info \n\n
+${global.config.PREFIX}🌺🍃Ƈɑɭɭɑɗ føɽ Ɑɳɣ ɪʂʂuɛ 
 <<<<<------------------------------>>>>>
-𝐊𝐈𝐒𝐈 𝐁𝐇𝐈  𝐢𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 𝐊 𝐋𝐈𝐘𝐄 𝐀𝐏 𝐌𝐄4𝐄 𝐁𝐎𝐒𝐒 𝐀𝐀𝐃𝐈 𝐁𝐀𝐁𝐔 𝐒𝐄 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐊𝐀𝐑 𝐒𝐊𝐓𝐄 𝐇
+A̸N̸D̸ F̸O̸R̸ A̸N̸Y̸ R̸E̸P̸O̸R̸T̸ O̸R̸ C̸O̸N̸T̸A̸C̸T̸ B̸O̸T̸ D̸E̸V̸A̸L̸O̸P̸A̸R̸....💙🍫
 
-𝐎𝐖𝐍𝐄𝐑: 𝐀𝐀𝐃𝐈 𝐁𝐀𝐁𝐔
+💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞꧁𝐙𝐚𝐢𝐧𝐢-𝐉𝐮𝐭𝐭꧂☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 ℤ𝔸𝕀ℕ ℙℝ𝕀ℕℂ𝔼🖤\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🤓:- ☞https://www.facebook.com/profile.php?id=100086033644262&mibextid=ZbWKwL\n
+👋For Any Kind Of Help Contact On Telegram  Username 👉 @zainijutt7😇 
 
-𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𝐈𝐃:: 
 
-https://www.facebook.com/aadi.babu123
+💎━━━━━🌟━━━━━💎
+✨ IMPORTANT NOTE ✨
+💎━━━━━🌟━━━━━💎
 
-𝐘𝐎𝐔 𝐓𝐔𝐁𝐄 𝐒𝐈𝐓𝐄 : N/A
+📌 YA BOT ID MAXIMUM 5 DIN CHLY GI.  
+📌 PHR BAND HO JY GI.  
+📌 NEW BOT ADD KRWANE K LY BOT KA ADMIN KO ADD KIA JY.  
+📌 JB ES ID MA PROBLEM HO TO NEW ID SA BOT RUN KR SKY. 😊  
 
-𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌: N/A
+BOT KA OWNER KI ID KA LINK YA RHA:  
+👉 [Click Here](https://www.facebook.com/profile.php?id=100086033644262)  
 
-𝐁𝐀𝐁𝐘 𝐌𝐔𝐉𝐄 𝐌𝐄𝐑𝐄 𝐁𝐎𝐒𝐒 𝐀𝐀𝐃𝐈 𝐁𝐀𝐁𝐔 𝐍𝐄 𝐁𝐀𝐍𝐀𝐘𝐀 𝐇𝐀𝐈
+AGR AP KO APNE GROUP MA ADMIN KA NAME KA BOT CHAHIE TO WHATSAPP PA CONTACT KR SAKTY:  
+📞 +923301068874  
 
-𝐄𝐌𝐀𝐈𝐋: aadisingh5245@gmail.com
-
-𝐑𝐄𝐀𝐋𝐓𝐈𝐎𝐍𝐒𝐇𝐈𝐏: NOT ALLOWED Ç𝐎𝐌𝐌𝐈𝐓𝐄𝐃`, attachment: fs.createReadStream(__dirname + "/cache/DhFHY1LcrjWZwBRkMlrtOdHr7QOeiGFMZqBGa4AEErRO.mp4")} ,threadID));
+💖 THANKS FOR USING RDX BOT 💖  
+💎━━━━━🌟━━━━━💎
+⟦🕊️⟦──🎀🧸💖🧸🎀──❀💞⟧  
+🍒🌟✧ℤ𝒶𝒾𝓃🌸✧  
+⟧🕊️⟧──🎀🧸💖🧸🎀──❀💞⟧
+`, attachment: fs.createReadStream(__dirname + "/cache/DhFHY1LcrjWZwBRkMlrtOdHr7QOeiGFMZqBGa4AEErRO.mp4")} ,threadID));
         }
         else {
                 try {
