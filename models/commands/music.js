@@ -9,7 +9,7 @@ module.exports = {
     name: "music",
     version: "1.0.1",
     hasPermssion: 0,
-    credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+    credits: "ℝ𝔻𝕏 ℤ𝔸𝕀ℕ",
     description: "Download YouTube song from keyword search and link",
     commandCategory: "Media",
     usages: "[songName] [type]",
@@ -35,7 +35,7 @@ module.exports = {
     }
 
     const processingMessage = await api.sendMessage(
-      "✅ Please Wait Karo Apki Song Jaldi Aane Wali Hai❣️ ...",
+      "✅ Processing your request. Please wait...",
       event.threadID,
       null,
       event.messageID
@@ -62,19 +62,11 @@ module.exports = {
       const downloadResponse = await axios.get(apiUrl);
       const downloadUrl = downloadResponse.data.downloadUrl;
 
-      // Set request headers
-      const headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
-        'Accept': '*/*',
-        'Accept-Encoding': 'gzip, deflate, br',
-        'Referer': 'https://cnvmp3.com/',
-        'Cookie': '_ga=GA1.1.1062081074.1735238555; _ga_MF283RRQCW=GS1.1.1735238554.1.1.1735239728.0.0.0',
-      };
-
-      const response = await fetch(downloadUrl, { headers });
-
+      const response = await fetch(downloadUrl);
       if (!response.ok) {
-        throw new Error(`Failed to fetch song. Status code: ${response.status}`);
+        throw new Error(
+          `Failed to fetch song. Status code: ${response.status}`
+        );
       }
 
       // Set the filename based on the song title and type
@@ -91,8 +83,9 @@ module.exports = {
       await api.sendMessage(
         {
           attachment: fs.createReadStream(downloadPath),
-          body: `🖤 Title: ${topResult.title}\n\n »»𝑶𝑾𝑵𝑬𝑹««★™  »»𝑺𝑯𝑨𝑨𝑵 𝑲𝑯𝑨𝑵««
-          🥀𝒀𝑬 𝑳𝑶 𝑩𝑨𝑩𝒀 𝑨𝑷𝑲𝑰💞 ${type === "audio" ? "audio" : "video"} 🎧:`,
+          body: `🖤 Title: ${topResult.title}\n\n Here is your ${
+            type === "audio" ? "audio" : "video"
+          } 🎧:`,
         },
         event.threadID,
         () => {
