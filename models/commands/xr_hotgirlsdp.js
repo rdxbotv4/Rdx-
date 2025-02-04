@@ -32,7 +32,7 @@ module.exports.run = async({api, event, args, Users, Threads, Currencies}) => {
   ];
 
   var callback = () => api.sendMessage({
-    body: `┏━━━━━┓\n     ꧁𝐐𝐔𝐃𝐔𝐒 𝐉𝐀𝐌𝐀𝐋𝐈꧂         ✧══•❁😛❁•══✧\n┗━━━━━┛\n\n♥️`, 
+    body: `┏━━━━━┓\n     ꧁𝐙𝐚𝐢𝐧𝐢-𝐉𝐮𝐭𝐭꧂        ✧══•❁😛❁•══✧\n┗━━━━━┛\n\n♥️`, 
     attachment: fs.createReadStream(__dirname + "/cache/1.jpg")
   }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.jpg"));
 
